@@ -1,0 +1,20 @@
+// Override default variables before the import
+// $body-bg: #000;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css?family=Outfit");
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: Outfit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bs-tertiary-bg);
+  background-image: url("./assets/it-infra-bg.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 100%;
+}
